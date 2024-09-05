@@ -6,11 +6,23 @@
     <title>ボタンのサンプル</title>
 </head>
 <body>
-    <button onclick="redirectToGoogle()">クリックしてください(https://dekitate-service.jp/app)</button>
+    <button onclick="redirectToProd()">クリックしてください(Prod)</button>
+
+    <button onclick="redirectToStg()">クリックしてください(Stg)</button>
+
+    <button onclick="redirectToDev()">クリックしてください(Dev)</button>
 
     <script>
-        function redirectToGoogle() {
+        function redirectToProd() {
             window.location.href = "https://dekitate-service.jp/app";
+        }
+
+        function redirectToStg() {
+            window.location.href = "https://stg.dekitate-service.jp/app";
+        }
+
+        function redirectToDev() {
+            window.location.href = "https://d28cetcpoxc5u7.cloudfront.net/app";
         }
     </script>
 </body>
