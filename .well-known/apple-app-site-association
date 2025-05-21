@@ -3,12 +3,7 @@
     "details": [
       {
         "appIDs": [
-          "K75PB9VKYT.jp.co.7andinm.dekitate-takeout.dev",
-          "K75PB9VKYT.jp.co.7andinm.dekitate-takeout.dev2",
-          "K75PB9VKYT.jp.co.7andinm.dekitate-takeout.stg",
-          "K75PB9VKYT.jp.co.7andinm.dekitateseven.dev",
-          "K75PB9VKYT.jjp.co.7andinm.dekitateseven.dev2",
-          "K75PB9VKYT.jp.co.7andinm.dekitateseven.stg"
+          "K75PB9VKYT.com.example.tokyoverdyapp.dev",
         ],
         "components": [
           {
