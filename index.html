@@ -8,23 +8,23 @@
 <body>
 
     <h1>hogehoge</h1>
-    <button onclick="redirectToProd()" style="display:block;" >クリックしてください(Prod)</button>
+    <button onclick="redirectToProd()" style="display:block;" >https://d3g7rhkdn4m6m8.cloudfront.net/auth/callback</button>
 
-    <button onclick="redirectToStg()" style="display:block;" >クリックしてください(Stg)</button>
+    <button onclick="redirectToStg()" style="display:block;" >https://d3g7rhkdn4m6m8.cloudfront.net/signup/complete</button>
 
     <button onclick="redirectToDev()" style="display:block;" >クリックしてください(Dev)</button>
 
     <script>
         function redirectToProd() {
-            window.location.href = "";
+            window.location.href = "https://d3g7rhkdn4m6m8.cloudfront.net/auth/callback";
         }
 
         function redirectToStg() {
-            window.location.href = "dev.apptokyoverdy://auth/callback";
+            window.location.href = "https://d3g7rhkdn4m6m8.cloudfront.net/signup/complete";
         }
 
         function redirectToDev() {
-            window.location.href = "https://ikekazumacl.github.io/hogehoge";
+            window.location.href = "dev.apptokyoverdy://auth/callback";
         }
     </script>
 </body>
